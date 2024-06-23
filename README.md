@@ -1,20 +1,17 @@
 # RPG Consola
 
 ## Descripción
-Esta herramienta de RPG es un proyecto personal creado con el propósito de practicar y mejorar mis habilidades en C#. No está destinada a un juego completo.
+Esta herramienta de RPG es un proyecto personal creado con el propósito de practicar y mejorar mis habilidades en C#. No está diseñada como un juego completo.
 
 ## Funcionalidades Actuales
-- Añadir y eliminar objetos objetos de inventarios.
-- Despazamiento por el menu con las flechas del teclado.
-- Texto de colores para mejores visuales.
+- Añadir y eliminar objetos del inventario.
+- Desplazamiento por el menú con las flechas del teclado.
+- Texto de colores para mejor visualización.
 - Uso de objetos y armas.
-- Clases abstractas para las plantillas de los Items
+- Implementación de clases abstractas para las plantillas de los ítems.
 
 ## Lenguaje
 - C#
-
-## Ejecución:
-- Ejecutar "dotnet run" en la carpeta raiz.
 
 ---
 
