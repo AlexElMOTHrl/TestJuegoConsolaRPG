@@ -66,7 +66,7 @@ namespace Characters
 			{
 				Console.ReadKey(true);
 			}
-			
+
 		}
 
 		public void RemoveItem(Item item)
@@ -120,6 +120,10 @@ namespace Characters
 				return;
 			}
 			item.Use(RPGTest.Program.player);
+			if (item is Weapon)
+			{
+				Moth.ShakeScreen();
+			}
 			if (item.deleteOnUse == true)
 			{
 				RemoveItem(item);

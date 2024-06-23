@@ -50,9 +50,11 @@ namespace Menus
 				if (itemIndex == selectedOption)
 				{
 					Console.ForegroundColor = ConsoleColor.Yellow;
-					Console.WriteLine($"> {item.Name}");
+					Console.WriteLine($" > {item.Name}");
 					Console.ForegroundColor = ConsoleColor.DarkYellow;
-					Console.WriteLine($"  Descripcion: {item.Description}");
+					Console.WriteLine($"    * Descripcion: {item.Description}");
+					Console.ForegroundColor = ConsoleColor.DarkGreen;
+					Console.WriteLine($"    * Valor: {item.value}€");
 					Console.ResetColor();
 				}
 				else
