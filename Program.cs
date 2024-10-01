@@ -30,11 +30,11 @@ namespace RPGTest
 		#region Consumables
 		public static Consumables cojones = new Consumables("Par de cojones", "De lo pesados que son sus cojones, por cada paso que da, cae un edificio.", 1000, -99, true, true, "Vale, pero por qué.", 4);
 		public static Consumables mujer = new Consumables("Mujer", "Pues eso, una tia..", 2, -1, true, true, "Illo, ¿qué?, no te la comas :(", 3);
-		public static Consumables healingPotion = new Consumables("Poción de curación", "Cura 50 de vida.", 100, 50, true, true, "Fentanilo rojo? líquido!!??!!?", 1);
+		public static Consumables healingPotion = new Consumables("Poción de curación", "Cura 50 de vida.", 100, 50, true, true, "Fentanilo rojo? LÍQUIDO!!??!!?", 1);
 		#endregion Consumables
 
 		#region DefaultItems
-		public static DefaultItem funtoy = new DefaultItem("PEDAZO de dildo", "Nunca sabes cuando lo vas a necesitar. 10 minutos?... 5 minutos??? Ni idea.", 5, false, true, "BzzzZzzZZzzzzzZZZZzzz...", 2);
+		public static DefaultItem funtoy = new DefaultItem("Gran de dildo", "Nunca sabes cuando lo vas a necesitar. 10 minutos?... 5 minutos???", 5, false, true, "BzzzZzzZZzzzzzZZZZzzz...", 2);
 		#endregion DefaultItems
 
 		#endregion Load Debug Weapons
