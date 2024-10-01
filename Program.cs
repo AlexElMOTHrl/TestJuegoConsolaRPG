@@ -24,13 +24,13 @@ namespace RPGTest
 		#region Load Debug Weapons
 
 		#region Weapons
-		public static Weapon pollon = new Weapon("Pollón", "Esto que ves es la grandiosa polla del creador...", 183719, 999, false, true, "¡TOMA POLLAZO!", 4);
+		public static Weapon pollon = new Weapon("Pollón", ":D", 183719, 999, false, true, "¡TOMA POLLAZO!", 4);
 		#endregion Weapons
 
 		#region Consumables
-		public static Consumables cojones = new Consumables("Par de cojones", "De lo pesados que son sus cojones, por cada paso que da se cambia la zona horaria por 1 hora.", 1000, -99, true, true, "Vale, pero por qué.", 4);
-		public static Consumables mujer = new Consumables("Mujer", "Un chocho con patas.", 2, -1, true, true, "Illo qué, no te la comas :(", 3);
-		public static Consumables healingPotion = new Consumables("Poción de curación", "Cura 50 de vida.", 100, 50, true, true, "Fentanilo rojo... y LÍQUIDO?!!??!!?", 1);
+		public static Consumables cojones = new Consumables("Par de cojones", "De lo pesados que son sus cojones, por cada paso que da, cae un edificio.", 1000, -99, true, true, "Vale, pero por qué.", 4);
+		public static Consumables mujer = new Consumables("Mujer", "Pues eso, una tia..", 2, -1, true, true, "Illo, ¿qué?, no te la comas :(", 3);
+		public static Consumables healingPotion = new Consumables("Poción de curación", "Cura 50 de vida.", 100, 50, true, true, "Fentanilo rojo? líquido!!??!!?", 1);
 		#endregion Consumables
 
 		#region DefaultItems
